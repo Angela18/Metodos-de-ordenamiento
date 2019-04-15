@@ -15,7 +15,7 @@ void Merge(int arr[],int izq, int m, int der){
     }
     int i=0;
     int j=0;
-    int k=1;
+    int k=izq;
 
     while(i<n1 && j<n2){
         if(Izq[i]<=Der[j]){
